@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Ruiz</title>
+    <link rel="stylesheet" href="styles/style.css">
+    
+</head>
+
+
+<body>
+    <!-- ------------------------ FIRST BLOCK OF THE PAGE ------------------------ -->
+    <div class="container topPage">
+        <!-- -------- naviagtion bar ---------- -->
+        <div class="navbar">
+            <img src="styles/img/snapchatPic.png" class="logo" alt="my snap picture" >
+            <nav>
+                <ul id="menuList">
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#work">Projects</a></li>
+                    <li><a href="https://www.linkedin.com/in/pablo-ruiz-a360641bb/">LinkedIn</a></li>
+                    <li><a href="https://github.com/pablo-graham">Github</a></li>
+                    <li><a href="styles/pabloruiz_resume.pdf" id="resume">RESUME</a></li>
+                </ul>
+            </nav>
+            <img src="styles/img/newMenu.png" alt="menu icon" class="menu-icon" onclick="toggleMenu()">
+        </div>
+        <!-- -------- naviagtion bar end ---------- -->
+        <div class="row">
+            <div class="col-1">
+                <h4>Hello World, my name is</h4>
+                <h1>Pablo Ruiz.</h1>
+                <h3>A Software Developer</h3>
+                <h5>with entry-level experience focused on front-end technologies. <br> 
+                    With a passion for programming, hoping to grow and provide exceptional service.
+                </h5>
+            </div>
+            <div class="col-2">
+                <a class="btn btn-primary" href="mailto:pablohruiz.327@gmail.com" role="button">Email Me!</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------ SECOND BLOCK OF THE PAGE ------------------------ -->
+    <div id="about" class="container aboutMe">
+        <div class="row">
+            <div class="col-1">
+                <h3>About Me</h3>
+                <p>Hello, my name is Pablo and I enjoy programming and making code come to life.
+                    I'm a self-taught developer. Sarted coding around November 2021, when I looked online and followed along
+                    the famous free cs50 Harvard class and immidiatly decided to take on the challenges of coding.
+                    <br>
+                    <br>
+                    Fast forward to today, I am in a tech foundations course at HackTheHood, already have a website up that I 
+                    helped create for a client while taking certifications to further improve my skills.
+                    <br>
+                    <br>
+                    Here are some things I know:
+                </p>
+                <div class="languages">
+                    <h5>language / other</h5>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>EJS</li>
+                        <li>NPM</li>
+                        <li>Node.js</li>
+                        <li>Wordpress</li>
+                        <li>Git</li>
+                        <li>Chrome Dev Tools</li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h5>technical skills</h5>
+                    <ul>
+                        <li>Scrum Methodology</li>
+                        <li>Jira</li>
+                        <li>Confluence</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-2">
+                <img src="styles/img/ProfilePictureMaker.png" class="profilePic" alt="Picture Of Pablo Ruiz">
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------ THIRD BLOCK OF THE PAGE ------------------------ -->
+    <div id="work" class="container workProject">
+        <div class="row one">
+            <div class="col-1 trio">
+                <img class="SCpic nhm" src="styles/img/newHopeSC.png" alt="picture of newhopemontebello.com">
+                <a href="https://newhopemontebello.org/"><h1>New Hope Monetebello</h1></a>
+            </div>
+            <div class="col-2 trio">
+                <img class="SCpic mg" src="styles/img/memoryGameSC.png" alt="picture of github.com/3100ashley/memory-game">
+                <a href="https://3100ashley.github.io/memory-game/"><h1>Memory Game</h1></a>
+            </div>
+            <div class="col-3 trio">
+                <img class="SCpic pc" src="styles/img/pomodorClockSC.png" alt="picture of pablo-graham.github.io/pomodoro-clock/">
+                <a href="https://pablo-graham.github.io/pomodoro-clock/"><h1>Pomodoro Clock</h1></a>
+            </div>
+        </div>
+        <div class="row two">
+            <div class="col-1 bp">
+                <ul>
+                    <li>
+                        Built the core pages of a Wordpress site for a local church organization.
+                    </li>
+                    <li>Integrated a third party plug-in to enable clients to create, update, and delete events,
+                        allowing the organization to independently advertise their social gatherings.
+                        </li>
+                    <li>
+                        Worked with the tech lead to deploy the website in an EC2 instance in AWS, along with domain name configurations with Route53.
+                    </li>
+                    <li>
+                        Facilitated scrum meetings and practiced agile ideologies to ensure timely delivery of the project.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2 bp">
+                <ul>
+                    <li>
+                        Developed a matching card memory game using HTML, CSS, and Javascript
+                    </li>
+                    <li>
+                        Collaborated with a teammate regularly and debugged issues using Chrome Dev-Tools.
+                    </li>
+                    <li>
+                        Built a wire frame to help maximize user potential and pseudo coded the logic of the game to create an efficient application. 
+                    </li>
+                </ul>
+            </div>
+            <div class="col-3 bp">
+                <ul>
+                    <li>
+                        A timer that's based on the <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique"> Pomodoro Technique</a> using HTML, CSS, and Javascript
+                    </li>
+                    <li>Used Chrome Dev-Tools to debug issues</li>
+                    <li>Developed the functionalities of the website such as displaying a timer and assigned different times to the buttons</li>
+                </ul>
+                </div>
+        </div>
+    </div>
+
+    <!-- ------------------------ SCRIPT ------------------------ -->
+    <script src="app.js"></script>
+
+
+</body>
+</html>

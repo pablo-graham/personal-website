@@ -1,0 +1,304 @@
+/* @media (max-width: 500px) <- this is to change css for smaller screen 
+@media (orientation: landscape) <- this is for when the length is shorter than the width 
+https://www.youtube.com/watch?v=yU7jJ3NbPdA */
+
+/* left off at 3:38 */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(#022140, #265077);
+}
+
+/* ----------navigation bar---------- */
+.topPage{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 40px;
+    margin: 30px 0;
+}
+.menu-icon{
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ccd6f6;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color:cadetblue;
+}
+#resume{
+    color: orangered;
+}
+
+/* -----------my info---------- */
+.topPage .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 0 75px;
+}
+.topPage .col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 300px;
+}
+.topPage .row .col-1 h1{
+    font-size: 80px;
+    color: #ccd6f6;
+    font-weight: 50;
+}
+.topPage .row .col-1 h3{
+    font-size: 55px;
+    font-weight:650;
+    margin: 20px 0 10px;
+    color: #15db95;
+}
+.topPage .row .col-1 h4{
+    font-size: 20px;
+    font-weight: 30;
+    margin: 20px 0 20px;
+    color: orangered;
+}
+.topPage .row .col-1 h5{
+    font-size: 20px;
+    font-weight: 30;
+    margin: 20px 0 20px;
+    color: cadetblue;
+}
+.topPage .row .col-2 a{
+    background-color: #f14c41;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.topPage .row .col-2{
+    position: relative;
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+}
+
+/* ---------- about me ----------- */
+.aboutMe{
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.aboutMe .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 0 auto;
+}
+.aboutMe .col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 300px;
+}
+.aboutMe .row .col-1 h3{
+    font-size: 46px;
+    color: orangered;
+}
+.aboutMe .row .col-1 p{
+    font-size: 20px;
+    color: white;
+}
+.aboutMe .row .col-1 .languages{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 auto;
+}
+.aboutMe .row .col-1 .languages h5{
+    font-size: 20px;
+    color: tomato;
+    flex-basis: 50%;
+
+}
+.aboutMe .row .col-1 .languages ul{
+    flex-basis: 50%;
+}
+.aboutMe .row .col-1 .languages ul li{
+    font-size: 20px;
+    color: whitesmoke;
+}
+.aboutMe .row .col-1 .skills{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 auto;
+}
+.aboutMe .row .col-1 .skills h5{
+    font-size: 20px;
+    color: tomato;
+    flex-basis: 50%;
+}
+.aboutMe .row .col-1 .skills ul{
+    flex-basis: 50%;
+}
+.aboutMe .row .col-1 .skills ul li{
+    font-size: 20px;
+    color: white;
+}
+.aboutMe .row .col-2{
+    margin-left: 50px;
+    text-align: center;
+    align-self: center;
+}
+.aboutMe .row .col-2 .profilePic{
+    width: 60%;
+}
+
+/* --------- Work Project ---------- */
+.workProject{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.workProject .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.workProject .one{
+    margin-top: 100px;
+}
+.workProject .row .trio{
+    flex-basis: 33%;
+    position: relative;
+    text-align: center;
+}
+.SCpic{
+    width: 80%;
+}
+.workProject .row .trio a{
+    text-decoration: none;
+
+}
+.workProject .row .trio h1{
+    color: wheat;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.workProject .row .bp{
+    flex-basis: 30%;
+    position: relative;
+}
+.workProject .row .bp ul li{
+    color: white;
+    margin-top: 20px;
+}
+.workProject .row .bp ul li a{
+    color: #f3e0dc;
+    text-decoration: none;
+
+}
+
+
+/* -------------------------------------------------------this is for smaller screens------------------------------------------------------- */
+@media only screen and (max-width: 700px){
+
+    /* ----------nav bar---------- */
+    nav ul{
+        width: 50%;
+        background: linear-gradient(#022140, #022140);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    /* -------------top page------------- */
+    .topPage .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .col-2{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    .topPage .col-1{
+        flex-basis: 100%;
+        margin-left: 0;
+    }
+    .col-1 h1{
+        font-size: 35px;
+    }
+    .col-1 h3{
+        font-size: 20px;
+    }
+
+    /* ---------- about me ----------- */
+    .aboutMe .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px 10px 100px;
+    }
+    .aboutMe .row .col-1{
+        margin-left: 0;
+        order: 2;
+    }
+    .aboutMe .row .col-2{
+        order: 1;
+        margin-left: auto;
+    }
+    .aboutMe .col-2 .profilePic{
+        width: 80%;
+        margin: 20px auto auto auto;
+        display: block;
+    }
+
+    /* ---------- work project ---------- */
+    
+}
