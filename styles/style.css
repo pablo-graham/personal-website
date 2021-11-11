@@ -1,9 +1,5 @@
 /* @media (max-width: 500px) <- this is to change css for smaller screen 
-@media (orientation: landscape) <- this is for when the length is shorter than the width 
-https://www.youtube.com/watch?v=yU7jJ3NbPdA */
-
-/* left off at 3:38 */
-
+@media (orientation: landscape) <- this is for when the length is shorter than the width  */
 
 *{
     margin: 0;
@@ -43,7 +39,7 @@ nav{
 }
 nav ul li{
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 1.8%;
 }
 nav ul li a{
     text-decoration: none;
@@ -62,40 +58,40 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 150px 0 75px;
+    margin: 13% 0;
 }
 .topPage .col-1{
     flex-basis: 40%;
     position: relative;
-    margin-left: 300px;
+    margin-left: 17.3%;
 }
 .topPage .row .col-1 h1{
-    font-size: 80px;
+    font-size: 535%;
     color: #ccd6f6;
     font-weight: 50;
 }
 .topPage .row .col-1 h3{
-    font-size: 55px;
+    font-size: 344%;
     font-weight:650;
-    margin: 20px 0 10px;
+    margin: 3% 0 2%;
     color: #15db95;
 }
 .topPage .row .col-1 h4{
-    font-size: 20px;
+    font-size: 135%;
     font-weight: 30;
-    margin: 20px 0 20px;
+    margin: 3% 0;
     color: orangered;
 }
 .topPage .row .col-1 h5{
-    font-size: 20px;
+    font-size: 130%;
     font-weight: 30;
-    margin: 20px 0 20px;
+    margin: 3% 0;
     color: cadetblue;
 }
 .topPage .row .col-2 a{
     background-color: #f14c41;
     color: white;
-    padding: 14px 25px;
+    padding: 3% 6%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -117,28 +113,28 @@ nav ul li a:hover{
 .aboutMe .row{
     display: flex;
     justify-content: space-between;
-    margin: 150px 0 auto;
+    margin: 8% 0;
 }
 .aboutMe .col-1{
     flex-basis: 40%;
     position: relative;
-    margin-left: 300px;
+    margin-left: 14.5%;
 }
 .aboutMe .row .col-1 h3{
-    font-size: 46px;
+    font-size: 288%;
     color: orangered;
 }
 .aboutMe .row .col-1 p{
-    font-size: 20px;
+    font-size: 125%;
     color: white;
 }
 .aboutMe .row .col-1 .languages{
     display: flex;
     justify-content: space-between;
-    margin: 50px 0 auto;
+    margin: 7% 0 auto;
 }
 .aboutMe .row .col-1 .languages h5{
-    font-size: 20px;
+    font-size: 125%;
     color: tomato;
     flex-basis: 50%;
 
@@ -147,16 +143,16 @@ nav ul li a:hover{
     flex-basis: 50%;
 }
 .aboutMe .row .col-1 .languages ul li{
-    font-size: 20px;
+    font-size: 125%;
     color: whitesmoke;
 }
 .aboutMe .row .col-1 .skills{
     display: flex;
     justify-content: space-between;
-    margin: 50px 0 auto;
+    margin: 6.7% 0 auto;
 }
 .aboutMe .row .col-1 .skills h5{
-    font-size: 20px;
+    font-size: 125%;
     color: tomato;
     flex-basis: 50%;
 }
@@ -164,65 +160,75 @@ nav ul li a:hover{
     flex-basis: 50%;
 }
 .aboutMe .row .col-1 .skills ul li{
-    font-size: 20px;
+    font-size: 125%;
     color: white;
 }
 .aboutMe .row .col-2{
-    margin-left: 50px;
+    margin-left: 2.5%;
     text-align: center;
     align-self: center;
 }
 .aboutMe .row .col-2 .profilePic{
-    width: 60%;
+    width: 50%;
 }
 
 /* --------- Work Project ---------- */
 .workProject{
     width: 100%;
     min-height: 100vh;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 15%;
+    padding-right: 15%;
     box-sizing: border-box;
     overflow: hidden;
+}
+.workProject h1{
+    font-size: 290%;
+    color: orangered;
+    margin-top: 3.8%;
+    text-align: center;
 }
 .workProject .row{
     display: flex;
     justify-content: space-between;
-    margin: 40px 0;
+    margin: 10% 0;
 }
-.workProject .one{
-    margin-top: 100px;
-}
-.workProject .row .trio{
-    flex-basis: 33%;
+.workProject .row .box-1{
+    flex-basis: 50%;
     position: relative;
     text-align: center;
 }
 .SCpic{
-    width: 80%;
+    width: 70%;
 }
-.workProject .row .trio a{
+.workProject .row .box-2 a{
     text-decoration: none;
-
 }
-.workProject .row .trio h1{
+.workProject .row .box-2 h1{
     color: wheat;
-    margin-top: 20px;
     cursor: pointer;
+    margin-top: 0;
+    text-align: left;
 }
-.workProject .row .bp{
-    flex-basis: 30%;
+.workProject .row .box-2{
+    flex-basis: 50%;
     position: relative;
 }
-.workProject .row .bp ul li{
+.workProject .row .box-2 ul li{
     color: white;
-    margin-top: 20px;
+    margin-top: 3%;
 }
-.workProject .row .bp ul li a{
+.workProject .row .box-2 ul li a{
     color: #f3e0dc;
     text-decoration: none;
 
 }
+.workProject .two .mm-p{
+    order: 2;
+}
+.workProject .two .mm-d{
+    order: 1;
+}
+
 
 
 /* -------------------------------------------------------this is for smaller screens------------------------------------------------------- */
@@ -262,19 +268,22 @@ nav ul li a:hover{
         flex-direction: column;
         margin: 20px 0;
     }
-    .col-2{
+    .topPage .row .col-2{
         flex-basis: 100%;
-        margin-bottom: 50px;
+        margin-top: 10%;
     }
-    .topPage .col-1{
+    .topPage .row .col-1{
         flex-basis: 100%;
         margin-left: 0;
     }
-    .col-1 h1{
-        font-size: 35px;
+    .topPage .row .col-1 h1{
+        font-size: 500%;
     }
-    .col-1 h3{
-        font-size: 20px;
+    .topPage .row .col-1 h3{
+        font-size: 300%;
+    }
+    .topPage .row .col-1 h5{
+        font-size: 120%;
     }
 
     /* ---------- about me ----------- */
@@ -283,11 +292,29 @@ nav ul li a:hover{
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        margin: 10px 10px 100px;
+        margin:0 9%;
     }
     .aboutMe .row .col-1{
         margin-left: 0;
         order: 2;
+    }
+    .aboutMe .row .col-1 h3{
+        text-align: center;
+        font-size: 250%;
+    }
+    .aboutMe .row .col-1 p {
+        font-size: 115%;
+    }
+    .aboutMe .row .col-1 .languages h5 {
+        font-size: 115%;
+        flex-basis: 65%;
+    }
+    .aboutMe .row .col-1 .skills h5 {
+        font-size: 115%;
+        flex-basis: 65%;
+    }
+    .aboutMe .row .col-1 .languages ul li {
+        font-size: 115%;
     }
     .aboutMe .row .col-2{
         order: 1;
@@ -300,5 +327,29 @@ nav ul li a:hover{
     }
 
     /* ---------- work project ---------- */
-    
+    .workProject .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .workProject h1{
+        margin: 3.8% 0;
+    }
+    .workProject .one{
+        margin-bottom: 15%;
+    }
+    .workProject .SCpic{
+        width: 100%;
+    }
+    .workProject .row .box-2 h1{
+        font-size: 200%;
+        text-align: center;
+    }
+    .workProject .two .box-1{
+        order: 1
+    }
+    .workProject .two .box-2{
+        order: 2
+    }
 }
